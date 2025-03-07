@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Courses</title>
+  <title>Course Details</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -36,7 +36,7 @@
   ======================================================== -->
 </head>
 
-<body class="courses-page">
+<body class="course-details-page">
 
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
@@ -51,7 +51,7 @@
         <ul>
           <li><a href="index.html">Home<br></a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="courses.html" class="active">Courses</a></li>
+          <li><a href="courses.html">Courses</a></li>
           <li><a href="events.html">Events</a></li>
           <li><a href="pricing.html">Pricing</a></li>
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -90,8 +90,8 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>Courses</h1>
-              <p class="mb-0">Brainbloom provides specialized knowledge, practical skills, and industry exposure to help individuals choose the right profession. It enhances credentials, boosts confidence, and offers networking opportunities. Additionally, Brainbloom courses support career transitions by equipping learners with new skills for a competitive job market.</p>
+              <h1>Course Details</h1>
+              <p class="mb-0">Students will gain hands-on experience through interactive lessons and projects, focusing on foundational skills and real-world problem-solving. The course is designed to equip learners with the knowledge and confidence to excel in the field, whether for academic advancement or professional development.</p>
             </div>
           </div>
         </div>
@@ -100,84 +100,151 @@
         <div class="container">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Courses</li>
+            <li class="current">Course Details</li>
           </ol>
         </div>
       </nav>
     </div><!-- End Page Title -->
 
-    <!-- Courses Section -->
-    <section id="course" class="course section">
+    <!-- Courses Course Details Section -->
+    <section id="courses-course-details" class="courses-course-details section">
 
-      <div class="container">
+      <div class="container" data-aos="fade-up">
 
         <div class="row">
+          <div class="col-lg-8">
+            <img src="assets/img/course-details.jpg" class="img-fluid" alt="">
+            <h3>Information System</h3>
+            <p>
+              An Information System (IS) is a structured system that combines technology, people, and processes to collect, process, store, and distribute data. It plays a crucial role in supporting decision-making, improving operational efficiency, and managing business activities within an organization. By organizing and analyzing data, an information system helps businesses streamline processes, solve problems, and create strategic insights. It integrates various components, such as hardware, software, databases, and personnel, to ensure that relevant and accurate information is accessible when needed.
+            </p>
+          </div>
+          <div class="col-lg-4">
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="course-item">
-              <img src="assets/img/course-1.jpg" class="img-fluid" alt="...">
-              <div class="course-content">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                  <p class="category">Programming</p>
-                  <p class="price">$169</p>
+            <div class="course-info d-flex justify-content-between align-items-center">
+              <h5>Trainer</h5>
+              <p><a href="#">Sarah Jhinson</a></p>
+            </div>
+
+            <div class="course-info d-flex justify-content-between align-items-center">
+              <h5>Course Fee</h5>
+              <p>$159</p>
+            </div>
+
+            <div class="course-info d-flex justify-content-between align-items-center">
+              <h5>Available Seats</h5>
+              <p>35</p>
+            </div>
+
+            <div class="course-info d-flex justify-content-between align-items-center">
+              <h5>Schedule</h5>
+              <p>9:00 pm - 11.00 am</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Courses Course Details Section -->
+
+    <!-- Tabs Section -->
+    <section id="tabs" class="tabs section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Database Management Systems (DBMS)</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Enterprise Resource Planning (ERP)</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Business Intelligence (BI)</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Systems Analysis and Design</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Cybersecurity in Information Systems</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3> Mastering Data Storage and Retrieval</h3>
+                    <p class="fst-italic">Data is only valuable when it's organized and accessible.</p>
+                    <p>Database Management Systems (DBMS) involve the use of software to create, manage, and manipulate databases. It focuses on storing, retrieving, and managing data efficiently, ensuring data integrity and security while providing users with quick and reliable access to information.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/tabs/tab-1.png" alt="" class="img-fluid">
+                  </div>
                 </div>
+              </div>
+              <div class="tab-pane" id="tab-2">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Integrating Business Processes for Efficiency </h3>
+                    <p class="fst-italic">An integrated system is the backbone of an efficient organization.</p>
+                    <p>Enterprise Resource Planning (ERP) involves using integrated software systems to manage core business processes such as finance, HR, supply chain, and manufacturing. It helps organizations streamline operations and improve decision-making by providing real-time data and automation.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/tabs/tab-2.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-3">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Turning Data into Strategic Insights</h3>
+                    <p class="fst-italic">Information is power, but only if it's understood.</p>
+                    <p>Business Intelligence (BI) involves the use of tools and techniques to analyze data and convert it into actionable insights. BI helps organizations make informed decisions, optimize performance, and stay competitive by analyzing trends, patterns, and opportunities within data.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/tabs/tab-3.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-4">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3> Blueprint for Effective System Solutions</h3>
+                    <p class="fst-italic">A well-designed system solves problems before they arise.</p>
+                    <p>Systems Analysis and Design focuses on the planning, creation, and implementation of information systems. It involves analyzing business needs, designing effective systems, and ensuring that the system integrates well with existing processes to improve overall efficiency and productivity.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/tabs/tab-4.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-5">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Securing Data and Digital Infrastructure</h3>
+                    <p class="fst-italic">Security is not a product, but a process.</p>
+                    <p>Cybersecurity in Information Systems involves protecting data, networks, and systems from cyber threats, such as hacking and data breaches. It includes strategies like encryption, firewalls, and intrusion detection to safeguard sensitive information and ensure the integrity and availability of digital infrastructure.
 
-                <h3><a href="course-details1.html">Information Technology</a></h3>
-                <p class="description">Process of combining multiple programming languages, tools, or technologies to create seamless and interoperable software solutions.</p>
-                <div class="trainer d-flex justify-content-between align-items-center">
-                  <div class="trainer-rank d-flex align-items-center">
-                    <i class="bi bi-person user-icon"></i>&nbsp;50
-                    &nbsp;&nbsp;
-                    <i class="bi bi-heart heart-icon"></i>&nbsp;65
+                    </p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/tabs/tab-5.png" alt="" class="img-fluid">
                   </div>
                 </div>
               </div>
             </div>
-          </div> <!-- End Courses Item-->
-          
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="course-item">
-              <img src="assets/img/course-2.jpg" class="img-fluid" alt="...">
-              <div class="course-content">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                  <p class="category">Web Development</p>
-                  <p class="price">$159</p>
-                </div>
+          </div>
+        </div>
 
-                <h3><a href="course-details2.html">Information System</a></h3>
-                <p class="description">Process of building and maintaining websites or web applications, involving coding, design, and functionality to ensure a seamless user experience.</p>
-                <div class="trainer d-flex justify-content-between align-items-center">
-                  <div class="trainer-rank d-flex align-items-center">
-                    <i class="bi bi-person user-icon"></i>&nbsp;35
-                    &nbsp;&nbsp;
-                    <i class="bi bi-heart heart-icon"></i>&nbsp;42
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> <!-- End Courses Item-->
+      </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
-            <div class="course-item">
-              <img src="assets/img/course-3.jpg" class="img-fluid" alt="...">
-              <div class="course-content">
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                  <p class="category">Artificial intelligence</p>
-                  <p class="price">$180</p>
-                </div>
+    </section><!-- /Tabs Section -->
 
-                <h3><a href="course-details3.html">Computer Science</a></h3>
-                <p class="description">Concentrated on developing machines and software capable of performing tasks that usually need human intelligence.</p>
-                <div class="trainer d-flex justify-content-between align-items-center">
-                  <div class="trainer-rank d-flex align-items-center">
-                    <i class="bi bi-person user-icon"></i>&nbsp;20
-                    &nbsp;&nbsp;
-                    <i class="bi bi-heart heart-icon"></i>&nbsp;85
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> <!-- End Courses Item-->        
   </main>
 
   <footer id="footer" class="footer position-relative light-background">
@@ -189,8 +256,8 @@
             <span class="sitename">Contact Us</span>
           </a>
           <div class="footer-contact pt-3">
-            <p><strong>Address:</strong> <span>T. De Castro St., Bulan Sorsogon, 4706</span></p>
-            <p><strong>Phone:</strong> <span>0912345679</span></p>
+            <p><strong>Address:</strong> <span>T. De Castro St., Bulan Sorsogon,4706</span></p>
+            <p><strong>Phone:</strong> <span>09123456789</span></p>
             <p><strong>Email:</strong> <span>brainbloom@email.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
