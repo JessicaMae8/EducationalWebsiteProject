@@ -1338,7 +1338,7 @@ section,
 
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
-  border-radius: 10px;
+  border-radius: 100px;
   border: 6px solid var(--background-color);
   position: absolute;
   left: -45px;
